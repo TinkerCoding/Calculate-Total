@@ -1,0 +1,12 @@
+/**
+* @param {array} numbers
+*/
+
+function calculateTotal(numbers) {
+  let sum = 0
+  numbers.forEach(function(number) {
+     sum = sum + number
+  })
+  return sum
+ }
+  
